@@ -1,0 +1,13 @@
+Programming with Go - Chapters Outline Updated
+1. Sample Programs
+
+2. Packaging and Tooling
+2.1 Naming Conventions
+2.2 Declaration
+2.4 Importing
+2.4 Program Initializing and Execution
+2.4.1 Package Initialization
+2.4.2 Program Execution
+2.4 The Go Tool
+
+3. Fundamental Building Blocks
