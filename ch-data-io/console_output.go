@@ -10,9 +10,9 @@ import (
 func main() {
 	inputReader := bufio.NewReader(os.Stdin)
 	fmt.Print("Please enter your name: ")
-	name, error := inputReader.ReadString('\n')
-	if error != nil {
-		log.Fatal(error)
+	name, e := inputReader.ReadString('\n')
+	if e != nil {
+		log.Fatal(e)
 	}
 	fmt.Println("Hi ", name)
 }
