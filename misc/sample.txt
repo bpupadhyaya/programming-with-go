@@ -1,0 +1,3 @@
+Energy cannot be created or destroyed; it can only be converted from one form to another.
+The state of entropy of the entire universe, as an isolated system, will always increase over time.
+The entropy of a perfect crystal at a temperature of zero Kelvin (absolute zero) is equal to zero.
