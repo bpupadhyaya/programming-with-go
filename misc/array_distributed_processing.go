@@ -43,6 +43,6 @@ func main() {
 	serTime := t4 - t3
 	fmt.Println("Grand total from serial proc.: ", grandTotal)
 	fmt.Printf("Concurrent time taken: %d nano seconds\n", concTime)
-	fmt.Printf("Serial time taken: %d\n nano seconds", serTime)
+	fmt.Printf("Serial time taken: %d nano seconds\n", serTime)
 
 }
