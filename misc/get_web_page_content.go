@@ -23,12 +23,12 @@ func main() {
 		log.Fatal(err)
 	}
 	fmt.Println("Google content")
-	fmt.Println(string(googBody))
+	fmt.Printf("Goog size: %d\n", len(googBody))
 
 	fbBody, err := ioutil.ReadAll(res2.Body)
 	if err != nil {
 		log.Fatal(err)
 	}
 	fmt.Println("Facebook content")
-	fmt.Println(string(fbBody))
+	fmt.Printf("Facebook size: %d\n", len(fbBody))
 }
