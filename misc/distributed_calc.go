@@ -5,7 +5,7 @@ import (
 	"runtime"
 )
 
-func sum(nums []int , chSum chan int) {
+func sum(nums []int, chSum chan int) {
 	sum := 0
 	for _, value := range nums {
 		sum += value
@@ -14,7 +14,7 @@ func sum(nums []int , chSum chan int) {
 	chSum <- sum
 }
 
-func product(nums []int , chProduct chan int) {
+func product(nums []int, chProduct chan int) {
 	product := 1
 	for _, value := range nums {
 		product *= value
@@ -24,7 +24,7 @@ func product(nums []int , chProduct chan int) {
 }
 
 func main() {
-    fmt.Printf("Number of CPU cores: %d\n", runtime.NumCPU())
+	fmt.Printf("Number of CPU cores: %d\n", runtime.NumCPU())
 	chSum := make(chan int)
 	myData := []int{3, 4, 5}
 	go sum(myData, chSum)
